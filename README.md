@@ -1,50 +1,241 @@
-HR Analytics Power BI Project
+Sales Performance Analysis - Power BI
+
+
+
 Description
-This project analyzes HR data to uncover trends related to employee performance, attrition, and workforce demographics using Power BI. The objective is to provide actionable insights for HR decision-making.
+
+
+
+This project analyzes sales performance over the years 2018-2021 using Power BI. The dashboard provides insights into customer purchasing behavior, regional sales distribution, and trends over time to help businesses make data-driven decisions.
+
+
 
 Dataset Information
-Source: Internal HR database
-Structure: Excel / CSV
-Key Attributes:
-Employee ID: Unique identifier for each employee
-Age: Employee age
-Department: Employee department
-Salary: Employee salary details
-Attrition: Whether the employee left the company
-Job Satisfaction: Employee satisfaction score
-Performance Rating: Employee performance evaluation
+
+
+
+Source: Sales transaction and customer database
+
+
+
+Format: Excel / CSV
+
+
+
+Tables Used:
+
+
+
+Customer Table
+
+
+
+City
+
+
+
+Customer Category
+
+
+
+Customer ID
+
+
+
+Province/State
+
+
+
+Invoice Table
+
+
+
+Customer Code
+
+
+
+Date
+
+
+
+Description
+
+
+
+Invoice ID
+
+
+
+Quantity
+
+
+
+Sales
+
+
+
+Transaction ID
+
+
+
 Installation & Requirements
-To set up the environment, ensure you have the following dependencies installed:
+
+
+
+To set up and explore the Power BI analysis, ensure you have the following tools installed:
+
+
 
 Required Tools:
+
+
+
 Power BI Desktop
+
+
+
 Data source connections (Excel, CSV)
+
+
+
 Usage
-To run the analysis, follow these steps:
+
+
+
+To analyze the data and explore insights:
+
+
 
 Clone the repository:
-git clone https://github.com/data-edd/hr-analytics-dashboard.git
-Open the HR_ANALYTICS-DASHBOARD.pbix file in Power BI Desktop.
-Refresh the dataset to load the latest data.
-Explore the HR dashboards and reports.
-Methodology
-This project follows a structured analytical approach:
 
-Data Import & Transformation: Cleaning, handling missing values, and transforming data using Power Query.
-Exploratory Data Analysis (EDA): Identifying trends, correlations, and attrition patterns.
-Data Modeling: Creating relationships and DAX measures for HR metrics.
+
+
+git clone https://github.com/data-edd/sales-performance-dashboard.git
+
+
+
+Open the SALES-PERFORMANCE-DASHBOARD.pbix file in Power BI Desktop.
+
+
+
+Refresh the dataset to load the latest data.
+
+
+
+Explore the interactive dashboards and reports.
+
+
+
+Key Metrics & Insights
+
+
+
+This Power BI dashboard focuses on the following key performance indicators:
+
+
+
+Sales by Customer Category: Understanding revenue contributions from different customer segments.
+
+
+
+Quantity by Customer Category: Analyzing product demand among customer categories.
+
+
+
+Sales by Province/State: Geographical distribution of sales.
+
+
+
+Quantity and Sales by Year: Trends in sales and product movement over time.
+
+
+
+Year-to-Date (YTD) Sales: Tracking cumulative sales for the current year.
+
+
+
+Year-on-Year (YoY) Sales: Comparing annual sales performance to identify growth trends.
+
+
+
+Methodology
+
+
+
+The analysis follows a structured approach:
+
+
+
+Data Import & Transformation: Data cleaning and preparation using Power Query.
+
+
+
+Exploratory Data Analysis (EDA): Identifying trends, patterns, and relationships.
+
+
+
+Data Modeling: Establishing relationships between tables and creating DAX measures.
+
+
+
 Visualization: Presenting insights through Power BI dashboards.
+
+
+
 Results & Insights
+
+
+
 Key findings from the analysis include:
 
-Attrition Trends: High turnover in specific departments.
-Performance vs. Job Satisfaction: Correlation between satisfaction and performance ratings.
-Salary Disparities: Insights into salary differences across roles and departments.
+
+
+High Sales in Specific Customer Categories: Certain customer segments contribute significantly to revenue, suggesting potential for targeted marketing efforts.
+
+
+
+Regional Sales Disparities: Some provinces/states consistently outperform others in sales, indicating opportunities for expansion or targeted sales strategies.
+
+
+
+Seasonal Trends in Sales: Notable fluctuations in sales figures throughout the year suggest seasonal demand patterns.
+
+
+
+Customer Buying Behavior: Analysis shows that repeat customers generate a significant portion of sales, emphasizing the importance of customer retention strategies.
+
+
+
+YoY Growth Trends: While sales have grown year-over-year, certain periods show stagnation or decline, highlighting areas for improvement.
+
+
+
 Contributions
-Contributions are welcome! Please follow these steps:
+
+
+
+Contributions are welcome! If you’d like to contribute:
+
+
 
 Fork the repository.
+
+
+
 Create a new branch (feature-branch-name).
+
+
+
 Commit your changes and push to the branch.
+
+
+
 Submit a pull request.
-For any inquiries, feel free to open an issue or contact [mr.armstrongedward@gmail.com].
+
+
+
+Contact
+
+
+
+For any inquiries or support, feel free to open an issue or contact [mr.armstrongedward@gmail.com].
